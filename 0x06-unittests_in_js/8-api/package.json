@@ -1,0 +1,20 @@
+{
+  "name": "8-api",
+  "version": "1.0.0",
+  "description": "API project for testing purposes",
+  "main": "index.js", // Entry point of your application
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha" // Script to run tests using Mocha
+  },
+  "author": "Your Name", // Author of the project
+  "license": "ISC", // License type
+  "dependencies": {
+    "express": "^4.17.1" // Dependency on Express framework
+  },
+  "devDependencies": {
+    "chai": "^4.2.0", // Dev dependency for Chai assertion library
+    "mocha": "^6.2.2", // Dev dependency for Mocha test framework
+    "request": "^2.88.0", // Dev dependency for making HTTP requests
+    "sinon": "^7.5.0" // Dev dependency for creating spies, stubs, and mocks
+  }
+}
